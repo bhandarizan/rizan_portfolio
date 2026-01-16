@@ -1,8 +1,6 @@
 import { Code, User } from "lucide-react";
 
 export const AboutSection = () => {
-  const resumePath = "/resume_latest_RizanBhandari.pdf"; // Direct path reference
-
   return (
     <section id="about" className="py-24 px-4 relative">
       {" "}
@@ -18,14 +16,14 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              With more than 1 year of experience in web development, I am working
-              in creating responsive, accessible, and performant web
+              With more than 1 year of experience in web development, I am
+              working in creating responsive, accessible, and performant web
               applications using modern technologies.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about finding different ways to get to solutions to complex
-              problems, and I'm constantly learning new technologies and
+              I'm passionate about finding different ways to get to solutions to
+              complex problems, and I'm constantly learning new technologies and
               techniques to stay at the forefront of the ever-evolving web
               infrastructure.
             </p>
@@ -37,7 +35,7 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href={resumePath}
+                href="/resume_latest_RizanBhandari.pdf"
                 download="RizanBhandari_Resume.pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
@@ -53,7 +51,10 @@ export const AboutSection = () => {
                   <Code className="h-8 w-8 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lxl mb-2"> Web Development</h4>
+                  <h4 className="font-semibold text-lxl mb-2">
+                    {" "}
+                    Web Development
+                  </h4>
                   <p className="text-muted-foreground text-base">
                     Optimizing responsive websites and web applications with
                     modern frameworks.
@@ -69,7 +70,8 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Current Focus-</h4>
                   <p className="text-muted-foreground">
-                    Full-stack development, REST APIs, authentication systems, and scalable design.
+                    Full-stack development, REST APIs, authentication systems, and
+                    scalable design.
                   </p>
                 </div>
               </div>
