@@ -1,4 +1,5 @@
 import { Code, User } from "lucide-react";
+import resumePDF from "../assets/resume_latest_RizanBhandari.pdf";
 
 export const AboutSection = () => {
   return (
@@ -35,7 +36,8 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href=""
+                href={resumePDF}
+                download ="RizanBhandari_Resume.pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
@@ -66,7 +68,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Current Focus-</h4>
                   <p className="text-muted-foreground">
-                    Full-stack development, REST APIs, authentication systems, and scalable database design.
+                    Full-stack development, REST APIs, authentication systems, and scalable design.
                   </p>
                 </div>
               </div>
