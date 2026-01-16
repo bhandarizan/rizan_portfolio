@@ -6,7 +6,7 @@ with a strong focus on clean UI, accessibility, and performance.
 
 ## 🌐 Live Demo
 
- **Live Website**: https://your-portfolio.vercel.app
+ **Live Website**: https://rizan-portfolio.vercel.app/
 
 
 ##  Features
