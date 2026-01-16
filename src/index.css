@@ -47,19 +47,6 @@
       transform: translateY(0);
     }
   }
-  @keyframes meteor {
-    0% {
-      transform: rotate(215deg) translateX(0);
-      opacity: 1;
-    }
-    70% {
-      opacity: 1;
-    }
-    100% {
-      transform: rotate(215deg) translateX(-500px);
-      opacity: 0;
-    }
-  }
 }
 
 @layer base {
@@ -76,13 +63,13 @@
   }
 
   .dark {
-    --background: 222 47% 4%;
-    --foreground: 213 31% 91%;
+    --background: 222 47% 11%;   /* deep slate blue */
+    --foreground: 210 40% 98%;
 
-    --card: 222 47% 8%;
+    --card: 222 40% 15%;
 
     --primary: 250 65% 65%;
-    --primary-foreground: 213 31% 91%;
+    --primary-foreground: 210 40% 98%;
 
     --border: 217 33% 20%;
   }
